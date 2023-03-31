@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { connect } from 'react-redux'
+import "./list.css"
 
 class List extends Component {
   constructor(props) {
@@ -11,8 +12,10 @@ class List extends Component {
   }
   render() {
     return (
-      <Fragment>
-                <thead>
+      <div className='container'>
+              <Fragment>
+        <table>
+        <thead>
                     <tr>
                         <th scope="col">Name</th>
                         <th scope="col">Age</th>
@@ -28,7 +31,9 @@ class List extends Component {
                     </tr>
                 ))}
                 </tbody>
+        </table>
             </Fragment>
+      </div>
     )
   }
 }

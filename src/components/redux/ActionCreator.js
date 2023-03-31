@@ -11,6 +11,11 @@ export const decreasevalue=() => {
         type: actionTypes.DECREMENT
     }
 }
+export const resetsevalue=() => {
+    return {
+        type: actionTypes.RESET
+    }
+}
 // export const costvalue=() => {
 //     return {
 //         type: actionTypes.COST

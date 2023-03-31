@@ -1,3 +1,5 @@
-export const INCREMENT= "INCREMENT"
 export const DECREMENT= "DECREMENT"
+export const INCREMENT= "INCREMENT"
+export const ADDPOST= "ADDPOST"
+export const RESET= "RESET"
 // export const COST= "COST"
